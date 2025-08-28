@@ -16,7 +16,7 @@ import (
 const (
 	echoDir            = "echo"
 	advisoriesURLBase  = "https://advisory.echohq.com"
-	advisoriesFilePath = "data.json"
+	advisoriesFilePath = "trixie-data.json"
 )
 
 type option func(c *Updater)
