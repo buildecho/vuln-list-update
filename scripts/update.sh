@@ -25,6 +25,7 @@ fi
 cd "$VULN_LIST_DIR" || exit 1
 
 if [[ -n $(git status --porcelain) ]]; then
+  git fetch
   git checkout trixie
   git add .
   git commit -m "${COMMIT_MSG}"
