@@ -1,4 +1,4 @@
-name: Update echo repo
+name: Update echo repo trixie
 on:
   schedule:
     - cron: "*/15 * * * *"
