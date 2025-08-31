@@ -25,6 +25,8 @@ fi
 cd "$VULN_LIST_DIR" || exit 1
 
 if [[ -n $(git status --porcelain) ]]; then
+  echo "Running on a different branch"
+  git status
   git add .
   git commit -m "${COMMIT_MSG}"
   git push origin trixie
