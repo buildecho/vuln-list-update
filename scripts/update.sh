@@ -24,6 +24,7 @@ fi
 
 cd "$VULN_LIST_DIR" || exit 1
 
+  git status
 if [[ -n $(git status --porcelain) ]]; then
   echo "Running on a different branch"
   git status
