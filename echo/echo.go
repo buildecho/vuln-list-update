@@ -15,7 +15,7 @@ import (
 
 const (
 	echoDir            = "echo"
-	advisoriesURLBase  = "https://dev-echohq-advisory-bucket.s3.us-east-1.amazonaws.com/advisories"
+	advisoriesURLBase  = "https://advisory.dev.echohq.com/"
 	advisoriesFilePath = "trixie-data.json"
 )
 
